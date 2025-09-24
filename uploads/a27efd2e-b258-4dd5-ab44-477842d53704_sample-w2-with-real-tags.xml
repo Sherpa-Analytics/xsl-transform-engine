@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Form941 xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <W2CM>
+    <!-- Employee Information -->
+    <EmployeeSSN>123-45-6789</EmployeeSSN>
+    <EmployeeName>
+      <FirstName>John</FirstName>
+      <LastName>TaxPayer</LastName>
+    </EmployeeName>
+    <EmployeeAddress>
+      <AddressLine1>101 Great Apartment Drive</AddressLine1>
+      <City>Foster City</City>
+      <State>CA</State>
+      <ZIPCode>90211</ZIPCode>
+    </EmployeeAddress>
+    
+    <!-- Employer Information -->
+    <EmployerEIN>98-7654321</EmployerEIN>
+    <EmployerName>Oracle</EmployerName>
+    <EmployerAddress>
+      <AddressLine1>123 Business Street</AddressLine1>
+      <City>Redwood Shores</City>
+      <State>CA</State>
+      <ZIPCode>90210</ZIPCode>
+    </EmployerAddress>
+    
+    <!-- Control Numbers -->
+    <ControlNumber>123-</ControlNumber>
+    
+    <!-- Box 1: Wages, tips, other compensation -->
+    <WagesTipsOtherCompAmt>50000.00</WagesTipsOtherCompAmt>
+    
+    <!-- Box 2: Federal income tax withheld -->
+    <FederalIncomeWithholdingAmt>7500.00</FederalIncomeWithholdingAmt>
+    
+    <!-- Box 3: Social security wages -->
+    <SocialSecurityWagesAmt>50000.00</SocialSecurityWagesAmt>
+    
+    <!-- Box 4: Social security tax withheld -->
+    <SocialSecurityTaxWithheldAmt>3100.00</SocialSecurityTaxWithheldAmt>
+    
+    <!-- Box 5: Medicare wages and tips -->
+    <MedicareWagesTipsAmt>50000.00</MedicareWagesTipsAmt>
+    
+    <!-- Box 6: Medicare tax withheld -->
+    <MedicareTaxWithheldAmt>725.00</MedicareTaxWithheldAmt>
+    
+    <!-- Box 7: Social security tips -->
+    <SocialSecurityTipsAmt>0.00</SocialSecurityTipsAmt>
+    
+    <!-- Box 8: Allocated tips -->
+    <AllocatedTipsAmt>0.00</AllocatedTipsAmt>
+    
+    <!-- Box 10: Dependent care benefits -->
+    <DependentCareBenefitsAmt>0.00</DependentCareBenefitsAmt>
+    
+    <!-- Box 11: Nonqualified plans -->
+    <NonqualifiedPlansAmt>0.00</NonqualifiedPlansAmt>
+    
+    <!-- Box 12: Codes and amounts -->
+    <EmployeeBusinessExpenseReimbursementAmt>0.00</EmployeeBusinessExpenseReimbursementAmt>
+    
+    <!-- Box 13: Checkboxes -->
+    <StatutoryEmployeeInd>false</StatutoryEmployeeInd>
+    <RetirementPlanInd>true</RetirementPlanInd>
+    <ThirdPartySickPayInd>false</ThirdPartySickPayInd>
+    
+    <!-- State Information -->
+    <StateWagesTipsEtcAmt>50000.00</StateWagesTipsEtcAmt>
+    <StateIncomeTaxAmt>2500.00</StateIncomeTaxAmt>
+    <StateAbbreviationCd>CA</StateAbbreviationCd>
+    <StateEmployerStateIdNum>1234567-890</StateEmployerStateIdNum>
+    
+    <!-- Local Information -->
+    <LocalWagesTipsEtcAmt>50000.00</LocalWagesTipsEtcAmt>
+    <LocalIncomeTaxAmt>500.00</LocalIncomeTaxAmt>
+    <LocalityNm>Los Angeles</LocalityNm>
+    
+    <!-- Year -->
+    <TaxYear>2023</TaxYear>
+  </W2CM>
+</Form941>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://example.com/schema"
+           xmlns:tns="http://example.com/schema"
+           elementFormDefault="qualified">
+
+  <!-- Root element -->
+  <xs:element name="?xml" type="tns:?xmlType"/>
+
+  <!-- Complex type for w2 -->
+  <xs:complexType name="w2Type">
+    <xs:complexContent>
+      <xs:extension base="xs:string">
+        <xs:sequence>
+      <xs:element name="page" type="xs:string"/>
+      <xs:element name="table" type="xs:string"/>
+      <xs:element name="row" type="xs:string"/>
+      <xs:element name="cell" type="xs:string"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+    <xs:attribute name="rows" type="xs:string" use="optional"/>
+    <xs:attribute name="cols" type="xs:string" use="optional"/>
+    <xs:attribute name="rowspan" type="xs:string" use="optional"/>
+    <xs:attribute name="colspan" type="xs:string" use="optional"/>
+  </xs:complexType>
+
+</xs:schema>
